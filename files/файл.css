@@ -1,0 +1,14 @@
+.advert__button {
+    font-weight: 500;
+    width: 100%;
+    background: #E18071;
+    font-weight: 500;
+    border-radius: 8px;
+    transition-duration: 200ms;
+    color: #fff;
+	border: none;
+}
+
+.advert__button:hover {
+    background: #BE5E4F;
+}

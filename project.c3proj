@@ -1,0 +1,255 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 36802,
+	"name": "Yabbi-Demo-App",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Button",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "HTMLElement",
+			"name": "HTML Element",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Tiled Background",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "yabbi",
+			"name": "Yabbi",
+			"author": "Yabbi, LLC",
+			"bundled": false,
+			"version": "1.0.0"
+		}
+	],
+	"uniqueId": "4xmxk891t9y",
+	"objectTypes": {
+		"items": [
+			"Scaffold",
+			"AppBar",
+			"YabbiConstruct3Demo",
+			"InterstitialAd",
+			"load_interstitial",
+			"show_interstitial",
+			"destroy_interstitial",
+			"RewardedAd",
+			"load_rewarded",
+			"show_rewarded",
+			"destroy_rewarded",
+			"Events",
+			"Logger",
+			"yabbi"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Макет 1"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"Список событий 1"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "Иконка-16.png",
+					"type": "image/png",
+					"sid": 385841555545058,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-32.png",
+					"type": "image/png",
+					"sid": 619688462651454,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-64.png",
+					"type": "image/png",
+					"sid": 306552576559135,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-128.png",
+					"type": "image/png",
+					"sid": 501230652742640,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-256.png",
+					"type": "image/png",
+					"sid": 353747129242488,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Иконка-512.png",
+					"type": "image/png",
+					"sid": 923000380127381,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "Загрузка-логотипа.png",
+					"type": "image/png",
+					"sid": 115468888055056,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [
+				{
+					"name": "файл.css",
+					"type": "text/css",
+					"sid": 844566467255081,
+					"file-info": {
+						"purpose": "stylesheet"
+					}
+				}
+			],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Шкала 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "Demo app",
+		"version": "1.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "me.yabbi.ads.app",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "portrait",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"autoReloadScriptsOnPreview": false,
+		"exportFileStructure": "folders",
+		"uidAllocationMode": "increment"
+	},
+	"viewportWidth": 480,
+	"viewportHeight": 854,
+	"firstLayout": null
+}

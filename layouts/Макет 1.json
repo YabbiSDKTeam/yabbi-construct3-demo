@@ -1,0 +1,527 @@
+{
+	"name": "Макет 1",
+	"layers": [
+		{
+			"name": "Слой 0",
+			"overriden": 0,
+			"subLayers": [],
+			"instances": [
+				{
+					"type": "Scaffold",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 2,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 0,
+						"width": 480,
+						"height": 854,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "AppBar",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 3,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 240,
+						"y": 28,
+						"width": 480,
+						"height": 56,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "YabbiConstruct3Demo",
+					"properties": {
+						"text": "Yabbi Construct 3 Demo",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 18,
+						"line-height": 0,
+						"bold": true,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 0,
+						"width": 464,
+						"height": 56,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "InterstitialAd",
+					"properties": {
+						"text": "Interstitial Ad",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 16,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.4627450980392157,
+							0.4627450980392157,
+							0.4627450980392157,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 70,
+						"width": 480,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "load_interstitial",
+					"properties": {
+						"type": "button",
+						"text": "Load Interstitial Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "load_interstitial",
+						"class": "advert__button"
+					},
+					"uid": 6,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 116,
+						"width": 448,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "show_interstitial",
+					"properties": {
+						"type": "button",
+						"text": "Show Interstitial Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "show_interstitial",
+						"class": "advert__button"
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 166,
+						"width": 448,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "destroy_interstitial",
+					"properties": {
+						"type": "button",
+						"text": "Destroy Interstitial Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "destroy_interstitial",
+						"class": "advert__button"
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 212,
+						"width": 448,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "RewardedAd",
+					"properties": {
+						"text": "Rewarded Ad",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 16,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.4627450980392157,
+							0.4627450980392157,
+							0.4627450980392157,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 276,
+						"width": 480,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "load_rewarded",
+					"properties": {
+						"type": "button",
+						"text": "Load Rewarded Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "load_rewarded",
+						"class": "advert__button"
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 322,
+						"width": 448,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "show_rewarded",
+					"properties": {
+						"type": "button",
+						"text": "Show Rewarded Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "show_rewarded",
+						"class": "advert__button"
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 368,
+						"width": 448,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "destroy_rewarded",
+					"properties": {
+						"type": "button",
+						"text": "Destroy Rewarded Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "destroy_rewarded",
+						"class": "advert__button"
+					},
+					"uid": 12,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 414,
+						"width": 448,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Events",
+					"properties": {
+						"text": "Events",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 16,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.4627450980392157,
+							0.4627450980392157,
+							0.4627450980392157,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 0,
+						"y": 476,
+						"width": 480,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Logger",
+					"properties": {
+						"tag": "p",
+						"content": "Events will appear hear...",
+						"content-type": "html",
+						"initially-visible": true,
+						"id": "Logger",
+						"class": "advert__events",
+						"allow-context-menu": false,
+						"stop-input-events": "no",
+						"origin": "top-left",
+						"set-color": true,
+						"default-color": [
+							0,
+							0,
+							0,
+							0
+						],
+						"set-background-color": false,
+						"default-background-color": [
+							1,
+							1,
+							1,
+							0
+						],
+						"auto-font-size": true,
+						"allow-text-selection": false,
+						"style-attribute": "font-size: 14p; width: 100%; white-space: pre-line; height: auto;"
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 16,
+						"y": 522,
+						"width": 448,
+						"height": 215,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				}
+			],
+			"sid": 707047999074109,
+			"effectTypes": [],
+			"isInitiallyVisible": true,
+			"isInitiallyInteractive": true,
+			"color": [
+				1,
+				1,
+				1,
+				1
+			],
+			"backgroundColor": [
+				0.3686274509803922,
+				0.3686274509803922,
+				0.3686274509803922,
+				1
+			],
+			"isTransparent": false,
+			"parallaxX": 1,
+			"parallaxY": 1,
+			"scaleRate": 1,
+			"forceOwnTexture": false,
+			"renderingMode": "3d",
+			"drawOrder": "z-order",
+			"useRenderCells": false,
+			"blendMode": "normal",
+			"zElevation": 0,
+			"global": false
+		}
+	],
+	"sid": 668729541251239,
+	"nonworld-instances": [],
+	"effectTypes": [],
+	"width": 960,
+	"height": 1708,
+	"unboundedScrolling": false,
+	"vpX": 0.5,
+	"vpY": 0.5,
+	"projection": "perspective",
+	"eventSheet": "Список событий 1"
+}

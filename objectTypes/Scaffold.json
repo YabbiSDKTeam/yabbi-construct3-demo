@@ -1,0 +1,21 @@
+{
+	"name": "Scaffold",
+	"plugin-id": "TiledBg",
+	"sid": 410099635723817,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 250,
+		"height": 250,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 3869183,
+		"useCollisionPoly": true,
+		"tag": ""
+	}
+}

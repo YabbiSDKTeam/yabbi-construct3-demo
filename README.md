@@ -4,4 +4,4 @@
 
 Используйте официальную документацию для интеграции SDK
 
-[Официальная документация](https://mobileadx.gitbook.io/mobileadx/yabbi/dokumentaciya-na-russkom/construct3-addon)
+[Официальная документация](https://yabbi.gitbook.io/yabbi-documentation/construct3-addon)

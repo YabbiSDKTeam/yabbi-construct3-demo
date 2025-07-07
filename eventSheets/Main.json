@@ -1,0 +1,106 @@
+{
+	"name": "Main",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "interstitial",
+					"sid": 734089438418963
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 577681795585788,
+					"parameters": {
+						"layout": "Intertistial"
+					}
+				}
+			],
+			"sid": 440461750074580
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "rewarded",
+					"sid": 716188048148600
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 678836156022771,
+					"parameters": {
+						"layout": "Rewarded"
+					}
+				}
+			],
+			"sid": 392641270232874
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "banner",
+					"sid": 116929895293167
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 986875711179841,
+					"parameters": {
+						"layout": "Banner"
+					}
+				}
+			],
+			"sid": 492432912120422
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 294458367632863
+				}
+			],
+			"actions": [
+				{
+					"id": "EnableDebug",
+					"objectClass": "Yabbi",
+					"sid": 380007647447179,
+					"parameters": {
+						"ENABLED": "true"
+					}
+				},
+				{
+					"id": "SetUserConsent",
+					"objectClass": "Yabbi",
+					"sid": 615926143642561,
+					"parameters": {
+						"HAS_CONSENT": "true"
+					}
+				},
+				{
+					"id": "Initialize",
+					"objectClass": "Yabbi",
+					"sid": 200371936295626,
+					"parameters": {
+						"PUBLISHER_ID": "\"65057899-a16a-4877-989b-38c432a7fa15\""
+					}
+				}
+			],
+			"sid": 259195623214945
+		}
+	],
+	"sid": 653280624731972
+}

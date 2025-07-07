@@ -1,8 +1,9 @@
 {
-	"name": "Events",
+	"name": "events_title",
 	"plugin-id": "Text",
-	"sid": 854816195635032,
+	"sid": 171769825591883,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],
 	"effectTypes": []

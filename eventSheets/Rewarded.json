@@ -1,0 +1,258 @@
+{
+	"name": "Rewarded",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "back",
+					"sid": 546851777255948
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 725697136245643,
+					"parameters": {
+						"layout": "Main"
+					}
+				}
+			],
+			"sid": 178297492083495
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "load_ad",
+					"sid": 721682430723805
+				}
+			],
+			"actions": [
+				{
+					"id": "LoadRewardedAd",
+					"objectClass": "Yabbi",
+					"sid": 674007527744353,
+					"parameters": {
+						"PLACEMENT_NAME": "\"eaac7a7f-b0b0-46d2-ac95-bd58578e9e29\""
+					}
+				}
+			],
+			"sid": 228411410134220
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "show_ad",
+					"sid": 408185635533044
+				}
+			],
+			"actions": [
+				{
+					"id": "ShowRewardedAd",
+					"objectClass": "Yabbi",
+					"sid": 621174839367963,
+					"parameters": {
+						"PLACEMENT_NAME": "\"eaac7a7f-b0b0-46d2-ac95-bd58578e9e29\""
+					}
+				}
+			],
+			"sid": 500312721468103
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "destroy_ad",
+					"sid": 633887800966413
+				}
+			],
+			"actions": [
+				{
+					"id": "DestroyRewardedAd",
+					"objectClass": "Yabbi",
+					"sid": 292051299384415,
+					"parameters": {
+						"PLACEMENT_NAME": "\"eaac7a7f-b0b0-46d2-ac95-bd58578e9e29\""
+					}
+				}
+			],
+			"sid": 492647172933277
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedLoaded",
+					"objectClass": "Yabbi",
+					"sid": 489138324931391
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 869498606727208,
+					"parameters": {
+						"text": "\"\nOnRewardedLoaded\""
+					}
+				}
+			],
+			"sid": 164662268521043
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedLoadFailed",
+					"objectClass": "Yabbi",
+					"sid": 766962271742890
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 305474483226984,
+					"parameters": {
+						"text": "\"\nOnRewardedLoadFailed\""
+					}
+				}
+			],
+			"sid": 107927421415824
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedShown",
+					"objectClass": "Yabbi",
+					"sid": 989934827209137
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 686383174089620,
+					"parameters": {
+						"text": "\"\nOnRewardedShown\""
+					}
+				}
+			],
+			"sid": 538525006817871
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedShowFailed",
+					"objectClass": "Yabbi",
+					"sid": 484774984610505
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 444308599246910,
+					"parameters": {
+						"text": "\"\nOnRewardedShowFailed\""
+					}
+				}
+			],
+			"sid": 271800929190590
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedClosed",
+					"objectClass": "Yabbi",
+					"sid": 539231567600448
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 800401307200437,
+					"parameters": {
+						"text": "\"\nOnRewardedClosed\""
+					}
+				}
+			],
+			"sid": 436291171683439
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedVideoStarted",
+					"objectClass": "Yabbi",
+					"sid": 312439767190370
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 845548453537308,
+					"parameters": {
+						"text": "\"\nOnRewardedVideoStarted\""
+					}
+				}
+			],
+			"sid": 636099615643700
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnRewardedVideoCompleted",
+					"objectClass": "Yabbi",
+					"sid": 296080873542150
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 900905269026749,
+					"parameters": {
+						"text": "\"\nOnRewardedVideoCompleted\""
+					}
+				}
+			],
+			"sid": 820216549417413
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnUserRewarded",
+					"objectClass": "Yabbi",
+					"sid": 318249987611962
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 983214100128609,
+					"parameters": {
+						"text": "\"\nOnUserRewarded\""
+					}
+				}
+			],
+			"sid": 905540217211020
+		}
+	],
+	"sid": 982978014071377
+}

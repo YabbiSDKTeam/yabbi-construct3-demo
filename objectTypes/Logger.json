@@ -1,8 +1,10 @@
 {
-	"name": "Logger",
-	"plugin-id": "HTMLElement",
-	"sid": 347119105264377,
+	"name": "logger",
+	"plugin-id": "Text",
+	"sid": 451828117084692,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": []
+	"behaviorTypes": [],
+	"effectTypes": []
 }

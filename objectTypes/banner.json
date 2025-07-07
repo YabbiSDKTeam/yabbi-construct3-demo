@@ -1,8 +1,9 @@
 {
-	"name": "destroy_rewarded",
+	"name": "banner",
 	"plugin-id": "Button",
-	"sid": 268398197833462,
+	"sid": 575866039446089,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }

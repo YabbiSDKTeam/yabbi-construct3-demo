@@ -1,8 +1,9 @@
 {
-	"name": "show_interstitial",
+	"name": "show_ad",
 	"plugin-id": "Button",
-	"sid": 595382286036627,
+	"sid": 724365701178611,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }

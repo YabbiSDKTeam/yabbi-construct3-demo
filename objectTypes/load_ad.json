@@ -1,8 +1,9 @@
 {
-	"name": "destroy_interstitial",
+	"name": "load_ad",
 	"plugin-id": "Button",
-	"sid": 460106379132194,
+	"sid": 918299104884259,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }

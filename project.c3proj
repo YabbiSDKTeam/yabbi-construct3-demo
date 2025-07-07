@@ -1,7 +1,7 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 36802,
-	"name": "Yabbi-Demo-App",
+	"savedWithRelease": 43203,
+	"name": "yabbi-construct3-demo",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
@@ -10,13 +10,6 @@
 			"type": "plugin",
 			"id": "Button",
 			"name": "Button",
-			"author": "Scirra",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "HTMLElement",
-			"name": "HTML Element",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -47,26 +40,26 @@
 			"name": "Yabbi",
 			"author": "Yabbi, LLC",
 			"bundled": false,
-			"version": "1.0.0"
+			"version": "1.1.0",
+			"sdkVersion": 2
 		}
 	],
 	"uniqueId": "4xmxk891t9y",
 	"objectTypes": {
 		"items": [
-			"Scaffold",
-			"AppBar",
-			"YabbiConstruct3Demo",
-			"InterstitialAd",
-			"load_interstitial",
-			"show_interstitial",
-			"destroy_interstitial",
-			"RewardedAd",
-			"load_rewarded",
-			"show_rewarded",
-			"destroy_rewarded",
-			"Events",
-			"Logger",
-			"yabbi"
+			"scaffold",
+			"interstitial",
+			"rewarded",
+			"banner",
+			"Yabbi",
+			"load_ad",
+			"show_ad",
+			"destroy_ad",
+			"events_title",
+			"app_bar",
+			"back",
+			"app_bar_title",
+			"logger"
 		],
 		"subfolders": []
 	},
@@ -78,13 +71,19 @@
 	},
 	"layouts": {
 		"items": [
-			"Макет 1"
+			"Main",
+			"Intertistial",
+			"Rewarded",
+			"Banner"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Список событий 1"
+			"Main",
+			"Interstitial",
+			"Banner",
+			"Rewarded"
 		],
 		"subfolders": []
 	},
@@ -171,16 +170,7 @@
 			"subfolders": []
 		},
 		"general": {
-			"items": [
-				{
-					"name": "файл.css",
-					"type": "text/css",
-					"sid": 844566467255081,
-					"file-info": {
-						"purpose": "stylesheet"
-					}
-				}
-			],
+			"items": [],
 			"subfolders": []
 		}
 	},
@@ -195,13 +185,18 @@
 			}
 		]
 	},
+	"flowcharts": {
+		"items": [],
+		"subfolders": []
+	},
 	"properties": {
 		"description": "Demo app",
 		"version": "1.0.0",
+		"autoIncrementVersion": false,
 		"author": "",
 		"authorEmail": "",
 		"authorWebsite": "",
-		"appId": "me.yabbi.ads.app",
+		"appId": "me.yabbi.ads",
 		"pixelRounding": false,
 		"zAxisScale": "normalized",
 		"fov": 0.7853981633974483,
@@ -233,7 +228,6 @@
 		"gpuPreference": "high-performance",
 		"scriptsType": "module",
 		"framerateMode": "vsync",
-		"compositingMode": "standard",
 		"sampling": "trilinear",
 		"downscaling": "medium",
 		"renderingMode": "auto",
@@ -245,7 +239,6 @@
 		"preloadSounds": true,
 		"cordovaiOSScheme": "app",
 		"cordovaAndroidScheme": "https",
-		"autoReloadScriptsOnPreview": false,
 		"exportFileStructure": "folders",
 		"uidAllocationMode": "increment"
 	},

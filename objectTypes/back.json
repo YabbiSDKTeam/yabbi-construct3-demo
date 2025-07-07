@@ -1,8 +1,9 @@
 {
-	"name": "load_interstitial",
+	"name": "back",
 	"plugin-id": "Button",
-	"sid": 213966236120891,
+	"sid": 493001442067174,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }

@@ -1,8 +1,9 @@
 {
-	"name": "show_rewarded",
+	"name": "rewarded",
 	"plugin-id": "Button",
-	"sid": 575866039446089,
+	"sid": 372584576391664,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }

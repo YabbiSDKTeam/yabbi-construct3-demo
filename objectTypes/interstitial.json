@@ -1,8 +1,9 @@
 {
-	"name": "load_rewarded",
+	"name": "interstitial",
 	"plugin-id": "Button",
-	"sid": 372584576391664,
+	"sid": 213966236120891,
 	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }

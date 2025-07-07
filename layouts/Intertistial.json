@@ -1,13 +1,13 @@
 {
-	"name": "Макет 1",
+	"name": "Intertistial",
 	"layers": [
 		{
-			"name": "Слой 0",
+			"name": "Layer 0",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Scaffold",
+					"type": "scaffold",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -25,9 +25,20 @@
 						"blend-margin-x": 0.1,
 						"blend-margin-y": 0.1
 					},
-					"uid": 2,
+					"uid": 7,
+					"sid": 679499925430036,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 679499925430036,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
 					"world": {
 						"x": 0,
 						"y": 0,
@@ -46,7 +57,7 @@
 					}
 				},
 				{
-					"type": "AppBar",
+					"type": "app_bar",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -54,12 +65,23 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 3,
+					"uid": 4,
+					"sid": 857997651143307,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 857997651143307,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
 					"world": {
 						"x": 240,
-						"y": 28,
+						"y": 27,
 						"width": 480,
 						"height": 56,
 						"originX": 0.5,
@@ -70,41 +92,53 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 6.280180672681378,
 						"zElevation": 0
 					}
 				},
 				{
-					"type": "YabbiConstruct3Demo",
+					"type": "app_bar_title",
 					"properties": {
-						"text": "Yabbi Construct 3 Demo",
+						"text": "Interstitial",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 18,
+						"size": 16,
 						"line-height": 0,
-						"bold": true,
+						"bold": false,
 						"italic": false,
 						"color": [
-							1,
-							1,
-							1,
+							0,
+							0,
+							0,
 							1
 						],
-						"horizontal-alignment": "left",
+						"horizontal-alignment": "center",
 						"vertical-alignment": "center",
 						"wrapping": "word",
+						"text-direction": "ltr",
 						"icon-set": -1,
 						"initially-visible": true,
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 4,
+					"uid": 8,
+					"sid": 903839583365534,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 903839583365534,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
 					"world": {
-						"x": 16,
+						"x": 0,
 						"y": 0,
-						"width": 464,
+						"width": 480,
 						"height": 56,
 						"originX": 0,
 						"originY": 0,
@@ -119,207 +153,37 @@
 					}
 				},
 				{
-					"type": "InterstitialAd",
-					"properties": {
-						"text": "Interstitial Ad",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 16,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.4627450980392157,
-							0.4627450980392157,
-							0.4627450980392157,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 0,
-						"y": 70,
-						"width": 480,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "load_interstitial",
+					"type": "load_ad",
 					"properties": {
 						"type": "button",
-						"text": "Load Interstitial Ad",
+						"text": "Load Ad",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
 						"auto-font-size": true,
 						"checked": false,
-						"id": "load_interstitial",
-						"class": "advert__button"
-					},
-					"uid": 6,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 16,
-						"y": 116,
-						"width": 448,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "show_interstitial",
-					"properties": {
-						"type": "button",
-						"text": "Show Interstitial Ad",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "show_interstitial",
-						"class": "advert__button"
-					},
-					"uid": 7,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 16,
-						"y": 166,
-						"width": 448,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "destroy_interstitial",
-					"properties": {
-						"type": "button",
-						"text": "Destroy Interstitial Ad",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "destroy_interstitial",
-						"class": "advert__button"
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 16,
-						"y": 212,
-						"width": 448,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "RewardedAd",
-					"properties": {
-						"text": "Rewarded Ad",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 16,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.4627450980392157,
-							0.4627450980392157,
-							0.4627450980392157,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
+						"id": "",
+						"class": ""
 					},
 					"uid": 9,
+					"sid": 135366388121764,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
-					"world": {
-						"x": 0,
-						"y": 276,
-						"width": 480,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "load_rewarded",
-					"properties": {
-						"type": "button",
-						"text": "Load Rewarded Ad",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "load_rewarded",
-						"class": "advert__button"
+					"instanceFolderItem": {
+						"sid": 135366388121764,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
 					},
-					"uid": 10,
-					"instanceVariables": {},
-					"behaviors": {},
+					"showing": true,
+					"locked": false,
 					"world": {
 						"x": 16,
-						"y": 322,
+						"y": 72,
 						"width": 448,
-						"height": 30,
+						"height": 40,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -331,57 +195,37 @@
 					}
 				},
 				{
-					"type": "show_rewarded",
+					"type": "back",
 					"properties": {
 						"type": "button",
-						"text": "Show Rewarded Ad",
+						"text": "◀️",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
 						"auto-font-size": true,
 						"checked": false,
-						"id": "show_rewarded",
-						"class": "advert__button"
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 16,
-						"y": 368,
-						"width": 448,
-						"height": 30,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "destroy_rewarded",
-					"properties": {
-						"type": "button",
-						"text": "Destroy Rewarded Ad",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "destroy_rewarded",
-						"class": "advert__button"
+						"id": "",
+						"class": ""
 					},
 					"uid": 12,
+					"sid": 171003024748549,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 171003024748549,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
 					"world": {
-						"x": 16,
-						"y": 414,
-						"width": 448,
-						"height": 30,
+						"x": 19,
+						"y": 21,
+						"width": 34,
+						"height": 24,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -393,36 +237,132 @@
 					}
 				},
 				{
-					"type": "Events",
+					"type": "show_ad",
+					"properties": {
+						"type": "button",
+						"text": "Show Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 13,
+					"sid": 209528882094843,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 209528882094843,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 16,
+						"y": 128,
+						"width": 448,
+						"height": 40,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "destroy_ad",
+					"properties": {
+						"type": "button",
+						"text": "Destroy Ad",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 15,
+					"sid": 805304739890108,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 805304739890108,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 16,
+						"y": 184,
+						"width": 448,
+						"height": 40,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "events_title",
 					"properties": {
 						"text": "Events",
 						"enable-bbcode": true,
 						"font": "Arial",
-						"size": 16,
+						"size": 14,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
 						"color": [
-							0.4627450980392157,
-							0.4627450980392157,
-							0.4627450980392157,
+							0,
+							0,
+							0,
 							1
 						],
-						"horizontal-alignment": "center",
+						"horizontal-alignment": "left",
 						"vertical-alignment": "top",
 						"wrapping": "word",
+						"text-direction": "ltr",
 						"icon-set": -1,
 						"initially-visible": true,
 						"origin": "top-left",
 						"read-aloud": false
 					},
-					"uid": 13,
+					"uid": 16,
+					"sid": 741387166080493,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 741387166080493,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
 					"world": {
-						"x": 0,
-						"y": 476,
-						"width": 480,
+						"x": 16,
+						"y": 240,
+						"width": 200,
 						"height": 30,
 						"originX": 0,
 						"originY": 0,
@@ -437,43 +377,49 @@
 					}
 				},
 				{
-					"type": "Logger",
+					"type": "logger",
 					"properties": {
-						"tag": "p",
-						"content": "Events will appear hear...",
-						"content-type": "html",
+						"text": "Events will appear hear...",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 12,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
 						"initially-visible": true,
-						"id": "Logger",
-						"class": "advert__events",
-						"allow-context-menu": false,
-						"stop-input-events": "no",
 						"origin": "top-left",
-						"set-color": true,
-						"default-color": [
-							0,
-							0,
-							0,
-							0
-						],
-						"set-background-color": false,
-						"default-background-color": [
-							1,
-							1,
-							1,
-							0
-						],
-						"auto-font-size": true,
-						"allow-text-selection": false,
-						"style-attribute": "font-size: 14p; width: 100%; white-space: pre-line; height: auto;"
+						"read-aloud": false
 					},
-					"uid": 15,
+					"uid": 17,
+					"sid": 266921815227949,
+					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"instanceFolderItem": {
+						"sid": 266921815227949,
+						"expanded": true,
+						"folderName": "",
+						"indexInFolder": -1,
+						"folderNestingLevel": -1
+					},
+					"showing": true,
+					"locked": false,
 					"world": {
 						"x": 16,
-						"y": 522,
+						"y": 286,
 						"width": 448,
-						"height": 215,
+						"height": 553,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -481,14 +427,17 @@
 							1,
 							1,
 							1
-						]
+						],
+						"angle": 0,
+						"zElevation": 0
 					}
 				}
 			],
-			"sid": 707047999074109,
+			"sid": 491091512532138,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
+			"isHTMLElementsLayer": false,
 			"color": [
 				1,
 				1,
@@ -514,7 +463,11 @@
 			"global": false
 		}
 	],
-	"sid": 668729541251239,
+	"scene-graphs-folder-root": {
+		"items": [],
+		"subfolders": []
+	},
+	"sid": 161982817803073,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 960,
@@ -523,5 +476,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Список событий 1"
+	"eventSheet": "Interstitial"
 }

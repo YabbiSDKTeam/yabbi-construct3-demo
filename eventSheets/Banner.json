@@ -1,0 +1,224 @@
+{
+	"name": "Banner",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "back",
+					"sid": 655662481863123
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 378037422617599,
+					"parameters": {
+						"layout": "Main"
+					}
+				}
+			],
+			"sid": 701991920263923
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "load_ad",
+					"sid": 224003536420881
+				}
+			],
+			"actions": [
+				{
+					"id": "SetBannerCustomSettings",
+					"objectClass": "Yabbi",
+					"sid": 748240685887149,
+					"parameters": {
+						"SHOW_CLOSE_BUTTON": "true"
+					}
+				},
+				{
+					"id": "LoadBannerAd",
+					"objectClass": "Yabbi",
+					"sid": 280033221114936,
+					"parameters": {
+						"PLACEMENT_NAME": "\"27668678-d138-4af4-84f4-891252086125\""
+					}
+				}
+			],
+			"sid": 710436417986870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "show_ad",
+					"sid": 114901454426362
+				}
+			],
+			"actions": [
+				{
+					"id": "ShowBannerAd",
+					"objectClass": "Yabbi",
+					"sid": 871206461341830,
+					"parameters": {
+						"PLACEMENT_NAME": "\"27668678-d138-4af4-84f4-891252086125\""
+					}
+				}
+			],
+			"sid": 928919394389038
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "destroy_ad",
+					"sid": 719572502266338
+				}
+			],
+			"actions": [
+				{
+					"id": "DestroyBannerAd",
+					"objectClass": "Yabbi",
+					"sid": 633615414295517,
+					"parameters": {
+						"PLACEMENT_NAME": "\"27668678-d138-4af4-84f4-891252086125\""
+					}
+				}
+			],
+			"sid": 842451585765747
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnBannerLoaded",
+					"objectClass": "Yabbi",
+					"sid": 658553460343957
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 512925923833246,
+					"parameters": {
+						"text": "\"\nOnBannerLoaded\""
+					}
+				}
+			],
+			"sid": 389760696053311
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnBannerLoadFailed",
+					"objectClass": "Yabbi",
+					"sid": 943486549974083
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 996433394521196,
+					"parameters": {
+						"text": "\"\nOnBannerLoadFailed\""
+					}
+				}
+			],
+			"sid": 112710700649782
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnBannerShown",
+					"objectClass": "Yabbi",
+					"sid": 178482601035472
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 210268910630856,
+					"parameters": {
+						"text": "\"\nOnBannerShown\""
+					}
+				}
+			],
+			"sid": 730994610727131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnBannerShowFailed",
+					"objectClass": "Yabbi",
+					"sid": 864001695450867
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 791525560224749,
+					"parameters": {
+						"text": "\"\nOnBannerShowFailed\""
+					}
+				}
+			],
+			"sid": 378621923285961
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnBannerImpression",
+					"objectClass": "Yabbi",
+					"sid": 587649979435741
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 507181432431250,
+					"parameters": {
+						"text": "\"\nOnBannerImpression\""
+					}
+				}
+			],
+			"sid": 130495719421566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnBannerClosed",
+					"objectClass": "Yabbi",
+					"sid": 474350875996693
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 296231732201433,
+					"parameters": {
+						"text": "\"\nOnBannerClosed\""
+					}
+				}
+			],
+			"sid": 886444937410902
+		}
+	],
+	"sid": 656644145072272
+}

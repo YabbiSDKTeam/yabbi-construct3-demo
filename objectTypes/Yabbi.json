@@ -1,12 +1,14 @@
 {
-	"name": "yabbi",
+	"name": "Yabbi",
 	"plugin-id": "yabbi",
 	"sid": 219350256786650,
 	"singleglobal-inst": {
-		"type": "yabbi",
+		"type": "Yabbi",
 		"properties": {
 			"publisher-id": "65057899-a16a-4877-989b-38c432a7fa15"
 		},
-		"uid": 14
+		"uid": 14,
+		"sid": 292602671459541,
+		"tags": ""
 	}
 }

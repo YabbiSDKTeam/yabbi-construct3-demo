@@ -1,0 +1,195 @@
+{
+	"name": "Interstitial",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "back",
+					"sid": 924859191134941
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 309643360549368,
+					"parameters": {
+						"layout": "Main"
+					}
+				}
+			],
+			"sid": 923484857704467
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "load_ad",
+					"sid": 152411608818946
+				}
+			],
+			"actions": [
+				{
+					"id": "LoadInterstitialAd",
+					"objectClass": "Yabbi",
+					"sid": 702086216988543,
+					"parameters": {
+						"PLACEMENT_NAME": "\"b8359c60-9bde-47c9-85ff-3c7afd2bd982\""
+					}
+				}
+			],
+			"sid": 989555173194644
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "show_ad",
+					"sid": 958435546078102
+				}
+			],
+			"actions": [
+				{
+					"id": "ShowInterstitialAd",
+					"objectClass": "Yabbi",
+					"sid": 175441225124603,
+					"parameters": {
+						"PLACEMENT_NAME": "\"b8359c60-9bde-47c9-85ff-3c7afd2bd982\""
+					}
+				}
+			],
+			"sid": 612544528491681
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "destroy_ad",
+					"sid": 140352354672447
+				}
+			],
+			"actions": [
+				{
+					"id": "DestroyInterstitialAd",
+					"objectClass": "Yabbi",
+					"sid": 881273973779724,
+					"parameters": {
+						"PLACEMENT_NAME": "\"b8359c60-9bde-47c9-85ff-3c7afd2bd982\""
+					}
+				}
+			],
+			"sid": 764592385883273
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnInterstitialLoaded",
+					"objectClass": "Yabbi",
+					"sid": 657224886634165
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 856378017750072,
+					"parameters": {
+						"text": "\"\nOnInterstitialLoaded\""
+					}
+				}
+			],
+			"sid": 414440661283511
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnInterstitialLoadFailed",
+					"objectClass": "Yabbi",
+					"sid": 279572085430405
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 493991596675428,
+					"parameters": {
+						"text": "\"\nOnInterstitialLoadFailed\""
+					}
+				}
+			],
+			"sid": 474775993184689
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnInterstitialShown",
+					"objectClass": "Yabbi",
+					"sid": 900089849676664
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 698598520485541,
+					"parameters": {
+						"text": "\"\nOnInterstitialShown\""
+					}
+				}
+			],
+			"sid": 535346458548884
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnInterstitialShowFailed",
+					"objectClass": "Yabbi",
+					"sid": 757763205339395
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 176163756287621,
+					"parameters": {
+						"text": "\"\nonInterstitialShowFailed\""
+					}
+				}
+			],
+			"sid": 475894113625994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "OnInterstitialClosed",
+					"objectClass": "Yabbi",
+					"sid": 972527559611453
+				}
+			],
+			"actions": [
+				{
+					"id": "append-text",
+					"objectClass": "logger",
+					"sid": 403002128423502,
+					"parameters": {
+						"text": "\"\nOnInterstitialClosed\""
+					}
+				}
+			],
+			"sid": 184587784189847
+		}
+	],
+	"sid": 405217524824151
+}
